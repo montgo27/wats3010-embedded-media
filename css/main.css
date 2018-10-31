@@ -11,6 +11,7 @@ aside#social {
     position: fixed;
     top: 50px;
     right: 20px;
+    cursor:pointer;
 }
 ul.social-links {
     display:none;
