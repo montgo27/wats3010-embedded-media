@@ -37,9 +37,9 @@ aside#social:hover ul.social-links {
  }
  section {
      padding-top: 50px;
-     padding-bottom; 25px;
-     padding-left; 10px;
-     padding-right; 10px;
+     padding-bottom: 25px;
+     padding-left: 10px;
+     padding-right: 10px;
  }
  footer {
      background: grey;
@@ -52,4 +52,7 @@ section#about {
 }
 section#listen {
     background: violet;
+}
+video {
+    width: 75%;
 }
