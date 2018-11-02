@@ -4,6 +4,7 @@
  *
  * Site Styles
  *****************************************************************************/
+
 aside#social {
     background: rgba(255,255,255,0.6);
     width: 200px;
@@ -32,7 +33,7 @@ aside#social:hover ul.social-links {
      padding: 100px 20px 20px 20px;
  }
  .heading {
-     background-color: rbga(255,255,255,0.6);
+     background-color: rbg(255,255,255);
      padding: 5px;
  }
  section {
@@ -42,16 +43,18 @@ aside#social:hover ul.social-links {
      padding-right: 10px;
  }
  footer {
-     background: grey;
+     background: rgb(252, 192, 166);
+     border: solid black 25px;
+     padding: 10px;
  }
  section#watch {
-     background: yellow;
+     background: rgb(252, 192, 166);
  }
 section#about {
-    background: cornflowerblue;
+    background: rgb(252, 192, 166);
 }
 section#listen {
-    background: violet;
+    background: rgb(252, 192, 166);
 }
 video {
     width: 75%;
@@ -60,7 +63,28 @@ video {
     border: solid 2px black;
     padding: 3px;
     margin:25px;
+    background:rgba(37, 169, 218)
     }
 #listen h2 {
     margin-bottom: 20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#about {
+    font-weight: 900;
+    border: double rgb(37,169,218)
+}
+h1, h2, h3, h4, h5, h6,p {
+    font-family: Comic Sans MS, cursive, sans-serif;
+    padding: 11px;
+}
+nav ul li {
+    display:inline;
+    border: solid 1px black;
+    padding: 5px;
+    background: rgb(37,169,218)
 }
