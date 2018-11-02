@@ -31,8 +31,8 @@ aside#social:hover ul.social-links {
      background-size: cover;
      padding: 100px 20px 20px 20px;
  }
- h1 {
-     background: rbga(255,255,255,0.4);
+ .heading {
+     background-color: rbga(255,255,255,0.4);
      padding: 5px;
  }
  section {
