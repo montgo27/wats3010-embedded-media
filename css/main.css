@@ -32,7 +32,7 @@ aside#social:hover ul.social-links {
      padding: 100px 20px 20px 20px;
  }
  .heading {
-     background-color: rbga(255,255,255,0.);
+     background-color: rbga(255,255,255,0.6);
      padding: 5px;
  }
  section {
@@ -62,5 +62,5 @@ video {
     margin:25px;
     }
 #listen h2 {
-    bottom-margin: 2px;
+    margin-bottom: 20px;
 }
